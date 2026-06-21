@@ -4,8 +4,8 @@ import joblib
 import os
 
 # Il server carica in memoria l'IA che hai appena "congelato"
-model = joblib.load('modello_ai.pkl')
-vectorizer = joblib.load('vectorizer.pkl')
+model = joblib.load('cervello_waf.pkl')
+vectorizer = joblib.load('traduttore_waf.pkl')
 
 # Creiamo l'app del server
 app = FastAPI()
