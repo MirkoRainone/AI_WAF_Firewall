@@ -8,7 +8,7 @@ from scudo_waf import WafMiddleware
 app = FastAPI()
 
 # 2 e 3. IL CLIENTE ATTIVA LO SCUDO CON LA SUA API KEY
-app.add_middleware(WafMiddleware, api_key="sk_live_123456789")
+app.add_middleware(WafMiddleware, api_key="fake_api_key_del_cliente") # Sostituisci con la chiave reale del cliente
 
 # ==========================================
 # LE PAGINE DEL SITO (HTML)
